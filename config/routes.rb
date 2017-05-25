@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   get '/academics', to: 'static_pages#academics'
   get '/research', to: 'static_pages#research'
   get '/activities', to: 'static_pages#activities'
-  get '/news', to: 'static_pages#news'
   get '/home', to: 'static_page#home'
   get '/about', to: 'static_pages#about'
   root 'static_pages#home'
