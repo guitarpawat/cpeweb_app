@@ -20,9 +20,6 @@ class StaticPagesController < ApplicationController
   def activities
   end
 
-  def news
-  end
-
   def home
   end
 
