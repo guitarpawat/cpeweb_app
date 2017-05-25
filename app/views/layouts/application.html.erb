@@ -8,6 +8,29 @@
   </head>
 
   <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+
+<div class="container">
+
+<%= link_to "sample app", root_path, id: "logo" %>
+
+<nav>
+
+<ul class="nav navbar-nav navbar-right">
+<li><%= link_to "Home", root_path %></li>
+<li><%= link_to "News", news_path %></li>
+<li><%= link_to "About", about_path %></li>
+<li><%= link_to "Contact Us", contact_path %></li>
+<li><%= link_to "Admission", admission_path %></li>
+<li><%= link_to "Fee and Scholarships", fee_path %></li>
+<li><%= link_to "Research", research_path %></li>
+<li><%= link_to "Activities", activities_path %></li>
+<li><%= link_to "Administration", administration_path %></li>
+<li><%= link_to "Academics", academics_path %></li>
+
+</ul>
+
+</nav>
     <%= yield %>
   </body>
 </html>
